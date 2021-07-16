@@ -1,0 +1,44 @@
+nav{
+    background-color: #dedddd;
+    
+}
+a.nav-link{
+   color: black !important;
+    
+}
+a.nav-link:hover{
+    color: gray !important;
+     
+ }
+ footer{
+    color: black;
+    margin-top: 30%;
+    background-color: #dedddd;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+ }
+.btn {
+background-color: green !important;
+}
+.img-w{
+    width:60%;
+}
+thead th{
+    background-color: #e6c6c685;
+
+}
+.badge-color{
+    color: black;
+    background-color:  #e6c6c685;
+}
+.btn{
+    background-color: #e6c6c685 !important;
+    color: black !important;
+
+}
+.bg-clr{
+    background-color: #e4d4d482;
+}
