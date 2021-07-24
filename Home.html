@@ -13,7 +13,7 @@
 
 </head>
 
-<body>
+<body onload="getlast()">
     <header>
         <nav class="navbar navbar-expand-lg mr-auto">
             <ul class="navbar-nav mr-auto">
@@ -31,6 +31,9 @@
         </nav>
     </header>
     <br>
+    <div  id="success" class="alert alert-success" style="display: none;" role="alert">
+        Your post has been saved sucessfully !
+      </div>
     <div class="row col-12">
         <div class="col-sm-6">
             <div class="card">
@@ -80,9 +83,9 @@
                 <tbody>
                     <tr>
                         <th scope="row">1</th>
-                        <td>The first ten days of Zul-Hijjah</td>
-                        <td>16/07/2021</td>
-                        <td>ِAmjad Almgati</td>
+                        <td id="lastPost">The first ten days of Zul-Hijjah</td>
+                        <td id="lastDay">16/07/2021</td>
+                        <td id="lastName">Amjad Almgati</td>
                     </tr>
                     <tr>
                         <th scope="row">2</th>
@@ -149,6 +152,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+        <script src="js/jsfile.js"></script>
 </body>
 
 </html>

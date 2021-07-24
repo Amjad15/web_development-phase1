@@ -41,10 +41,14 @@
             </div>
             <br>
             <div>
+                <form action="Home.html" method="POST">
+                    <input class="form-control" placeholder="your Name" type="text" id="Name" name="Name" required>
+                    <input class="form-control mt-2" placeholder="Title" type="text" id="title" name="title" required>
+                    <textarea name="post" class="form-control mt-2" id="post" placeholder="write your posts here" cols="30" rows="10" required></textarea>
+                    <input type="submit" class="btn mt-2" name="Save" onclick="savepost()">
+
+                </form>
                 
-                <input class="form-control" placeholder="Title" type="text" name="title">
-                <textarea name="post" class="form-control mt-2" placeholder="write your posts here" cols="30" rows="10"></textarea>
-                <input type="submit" class="btn mt-2" name="Save" onclick="savepost()">
 
             </div>
         </div>
